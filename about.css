@@ -96,9 +96,9 @@ li a:hover:not(.active) {
 }
 
 .aboutfactual{
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
-  text-align: center;
+    height: auto;
+    text-align: center;
+    padding-bottom: 10px;
 
     
  }
