@@ -68,7 +68,7 @@ li a:hover:not(.active) {
  *  Cover
  **********************************************************************/
 .container {
-    /*show heigh: auto*/
+    /*show height: auto*/
     height: 70vh; 
     display: flex;
     align-items: center;
