@@ -73,7 +73,6 @@ li a:hover:not(.active) {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
 }
 
 .cover {
@@ -171,6 +170,7 @@ footer {
 
 p{
     font-size: 15px;
+    color: black;
 }
 
 h4{

@@ -92,7 +92,6 @@ nav .menu_container ul li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
 }
 
 .cover {
@@ -110,6 +109,11 @@ h1{
   margin-bottom: 20px;
 }
 
+.heading_box{
+  height: auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
 
 #heading{
   padding: .3rem;
@@ -148,39 +152,6 @@ h1{
 
 }
 
-.item_container {
-  position: relative;
-  /*width: 50%;*/
-  padding: 1rem;
-}
-
-.pop_img {  
-  /*width: 25rem;*/
-/*  height: 25rem;*/  
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
-
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: relative;
-  top: -50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.item_container:hover .img {
-  opacity: 0.3;
-}
-
-.item_container:hover .middle {
-  opacity: 1;
-}
 
 .text {
   background-color: #04AA6D;
@@ -201,6 +172,7 @@ footer {
 
 p{
     font-size: 15px;
+    color: black;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
